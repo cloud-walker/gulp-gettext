@@ -1,0 +1,22 @@
+{
+  "name": "gulp-gettext",
+  "version": "0.1.0",
+  "description": "Compile .po to .mo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cloud-walker/gulp-gettext.git"
+  },
+  "keywords": [
+    "gulp"
+  ],
+  "author": "Luca Barone",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cloud-walker/gulp-gettext/issues"
+  },
+  "homepage": "https://github.com/cloud-walker/gulp-gettext"
+}
