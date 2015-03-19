@@ -11,7 +11,8 @@
     "url": "https://github.com/cloud-walker/gulp-gettext.git"
   },
   "keywords": [
-    "gulp"
+    "gulp",
+    "gettext"
   ],
   "author": "Luca Barone",
   "license": "MIT",
