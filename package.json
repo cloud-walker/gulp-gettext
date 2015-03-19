@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/cloud-walker/gulp-gettext/issues"
   },
-  "homepage": "https://github.com/cloud-walker/gulp-gettext"
+  "homepage": "https://github.com/cloud-walker/gulp-gettext",
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-coffee": "^2.3.1"
+  }
 }
