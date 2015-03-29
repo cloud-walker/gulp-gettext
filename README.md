@@ -8,12 +8,14 @@ Install with [npm](https://www.npmjs.com/)
 
 ## Quick example
 
-	var gulp    = require('gulp');
-	var gettext = require('gulp-gettext');
+```javascript
+var gulp    = require('gulp');
+var gettext = require('gulp-gettext');
 
-	gulp.task('gettext', function() {
-		gulp.src('src/**/*.po')
-			.pipe(gettext())
-			.pipe(gulp.dest('dist'))
-		;
-	});
+gulp.task('gettext', function() {
+	gulp.src('src/**/*.po')
+		.pipe(gettext())
+		.pipe(gulp.dest('dist'))
+	;
+});
+```
