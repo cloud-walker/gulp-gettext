@@ -5,7 +5,7 @@
 ### Install
 	npm i -S @cl0udw4lk3r/gulp-gettext
 
-## Quick example
+### Quick example
 ```javascript
 import gulp    from 'gulp'
 import gettext from 'gulp-gettext'
