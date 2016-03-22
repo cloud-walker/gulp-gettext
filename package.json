@@ -2,10 +2,7 @@
   "name": "gulp-gettext",
   "version": "0.1.0",
   "description": "Compile .po to .mo",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "main": "lib/index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/cloud-walker/gulp-gettext.git"
