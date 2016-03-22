@@ -1,21 +1,18 @@
 # gulp-gettext
-Compile .po files into .mo
+> Compile .po files to .mo
 
-## Install
-Install with [npm](https://www.npmjs.com/)
-
-	npm i --save-dev gulp-gettext
+## Usage
+### Install
+	npm i -S @cl0udw4lk3r/gulp-gettext
 
 ## Quick example
-
 ```javascript
-var gulp    = require('gulp');
-var gettext = require('gulp-gettext');
+import gulp    from 'gulp'
+import gettext from 'gulp-gettext'
 
-gulp.task('gettext', function() {
+gulp.task('gettext', () => {
 	gulp.src('src/**/*.po')
 		.pipe(gettext())
 		.pipe(gulp.dest('dist'))
-	;
-});
+})
 ```
