@@ -2,6 +2,7 @@ import through from 'through2'
 import {po, mo} from 'gettext-parser'
 import gutil from 'gulp-util'
 
+// I don't export the esnext way due to commonjs incompatibility.
 module.exports = function () {
 	return through.obj(function (file, enc, done) {
 		const parsed = po.parse(file.contents)
