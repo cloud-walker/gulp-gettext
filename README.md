@@ -3,7 +3,7 @@
 
 ## Usage
 ### Install
-  npm i -S gulp-gettext
+`npm i -S gulp-gettext`
 
 ### Quick example
 ```javascript
