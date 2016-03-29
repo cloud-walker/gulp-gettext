@@ -1,0 +1,7 @@
+# First
+msgid "hello, world!"
+msgstr "buongiorno, mondo!"
+
+# Second
+msgid "test translation"
+msgstr "test di traduzione"
